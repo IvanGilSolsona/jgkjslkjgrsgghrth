@@ -1,3 +1,4 @@
-nombre = input(¿Como te llamas?);
-print("Hola " nombre)
-espera = input();
+from funciones import leer, mostrar
+
+nombre = leer()
+mostrar(nombre)
